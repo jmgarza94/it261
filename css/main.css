@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color:#fff; */
+    background-color:rgb(150, 150, 150);
+    /* background-color:#fff; */
+  }
+
+  div.wrapper {
+    background-color:rgb(100, 100, 100);
+    /* background-color: #fff; */
+    overflow:auto;
+}
+
+p {
+    margin-left:35px;
+}
+
+h1,h2,h3 {
+    margin-left:35px;  
+}
+
+.banner h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    float: left;
+    width: 40%;
+}
+
+aside {
+    text-align: left;
+    float: right;
+    /* width: 30%; */
+    margin-bottom: 30px;
+}
+
+aside img {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    max-width: 75%;
+    max-height: 75%;
+
+}
+
+aside h3 {
+    margin-left: 0px;
+}
+
+
+footer {
+    clear: both;
+    text-align:center;
+    background-color: rgb(150, 150, 150);
+    /* background-color: crimson; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+
+.weekly {
+    margin-bottom: 50px;
+    text-decoration-color:crimson;
+}
+
+
+/* START DESKTOP - RESPONSIVE RULES */
+
+@media all and (min-width:1400px) {
+    
+    div.wrapper {
+        background-color:#778899;
+        width:85%;
+        margin:auto;
+    }
+
+}
+    
+
+/* END DESKTOP - RESPONSIVE RULES */
+
+
+
+
+/* START TABLET - RESPONSIVE RULES */
+
+@media all and (min-width:501px) and (max-width:1399px) {
+    div.wrapper {
+        background-color:cadetblue;
+        width:90%;
+        margin:auto;
+        
+    }
+    
+}
+
+/* END TABLET - RESPONSIVE RULES */
+
+
+
+
+/* START PHONE - RESPONSIVE RULES */
+
+@media all and (max-width:500px) {
+    div.wrapper {
+        background-color:royalblue;
+        width:90%;
+        margin:auto;
+    }
+
+}
+    
+/* END PHONE - RESPONSIVE RULES */
